@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img/noaa-99F4mC79j1I-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button{
+    border-radius: 0px 0px 0px 10px;
+    background-color: aliceblue;
+    border: none;
+}
+
+.icon {
+    border-radius: 0px 10px 0px 0px;
+    padding: 0px 15px;
+    border: none;
+
+}
+
+#cityname{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: aliceblue;
+}
+
+.temp1{
+    text-shadow: 4px 4px 5px #000000;
+    font-family: 'Anton', sans-serif;
+}
+
+.container {
+    backdrop-filter: blur(3px);
+}
+
+@media(width<720px){
+    body{
+        background: url(img/nikolas-noonan-fQM8cbGY6iQ-unsplash.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
